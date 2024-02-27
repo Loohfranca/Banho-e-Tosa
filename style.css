@@ -1,0 +1,126 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+header {
+    margin: 40px 0 144px 76px;
+    float: right;
+    margin: 30px;
+    display: inline-block;
+
+
+
+}
+
+.logo {
+    margin: 30px;
+
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgb(17, 137, 192);
+    cursor: pointer;
+    margin-right: 25px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.link-header:hover {
+    opacity: 0.5;
+}
+
+img {
+    margin-right: 20px;
+
+
+}
+
+.contato {
+    width: 120px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(17, 137, 192);
+    padding: 9px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contato:hover {
+    transform: translate(-30px);
+    background-color: rgb(20, 2, 6);
+}
+
+.body {
+
+
+    background: rgb(247, 37, 177);
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(31, 97, 128);
+    line-height: 130px;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 13px;
+    ;
+}
+
+p {
+    color: #050000f5;
+    font-weight: 500px;
+    line-height: 19px;
+    font-size: 18px;
+    width: 515px;
+    margin-top: 25px;
+    margin-bottom: 65px;
+
+}
+
+.sabermais {
+    width: 150px;
+    font-weight: 600;
+    height: 64px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(17, 137, 192);
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 3px;
+
+}
+
+.sabermais:hover {
+    background: rgb(76, 171, 235);
+}
