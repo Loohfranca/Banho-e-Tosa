@@ -15,7 +15,7 @@
 
 }
 
-section {
+.ladoesquerdo {
     display: inline-block;
     margin-left: 100px;
 }
@@ -25,6 +25,7 @@ header {
     float: right;
     margin: 30px;
     display: inline-block;
+    
 
 
 
@@ -123,4 +124,46 @@ p {
 
 .sabermais:hover {
     background: rgb(76, 171, 235);
+}
+
+
+@media screen and (max-width: 900px) {
+
+    h2 {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        
+        line-height: 62px;
+        font-size: 70px;
+
+    }
+.ladoesquerdo{
+    width: 160%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+
+}
+image{
+    position: static;
+
+}
+
+.sabermais{
+    margin-left: 150px;
+
+    
+   
+}
+header{
+   width: 100%;
+   float: left;
+}
+
 }
