@@ -7,44 +7,63 @@
 
 }
 
+.wrapper {
+    height: 100vh;
+    width: 90vw;
+
+
+}
+
 .image {
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-    display: inline-block;
+
+    position: relative;
+    right: 150px;
+    width: 400px;
+
+
+
 
 }
 
 .ladoesquerdo {
     display: inline-block;
     margin-left: 100px;
+    width: 60%;
+    margin-top: 60px;
+}
+
+.ladodireito {
+    display: inline-block;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+
 }
 
 header {
-    margin: 40px 0 144px 76px;
-    float: right;
+    margin: 30px 0px 100px px;
     margin: 30px;
     display: inline-block;
-    
-
-
 
 }
 
 .logo {
-    margin: 30px;
+    margin: 10px;
+    margin-left: 10px;
 
 }
 
 .link-header {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 17px;
+    line-height: px;
     color: rgb(17, 137, 192);
     cursor: pointer;
-    margin-right: 25px;
     text-decoration: none;
     opacity: 0.9;
+    margin: 24px 0 0 20px;
+
 }
 
 .link-header:hover {
@@ -55,70 +74,67 @@ img {
     margin-right: 20px;
 
 
+
 }
 
 .contato {
     width: 120px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     border-radius: 20px;
     color: white;
     background-color: rgb(17, 137, 192);
-    padding: 9px;
+    padding: 6px;
     cursor: pointer;
     transition: 1s;
 }
 
 .contato:hover {
-    transform: translate(-30px);
-    background-color: rgb(20, 2, 6);
+    transform: translate(-15px);
+    background-color: rgb(247, 115, 143);
 }
 
-.body {
-
-
-    background: rgb(247, 37, 177);
-}
 
 h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 600;
     color: rgb(31, 97, 128);
-    line-height: 130px;
+    line-height: 90px;
+    width: 360px;
 
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 13px;
-    ;
+    color: deeppink;
+
 }
 
 p {
     color: #050000f5;
-    font-weight: 500px;
-    line-height: 19px;
+    font-weight: 900px;
+    line-height: 21px;
     font-size: 18px;
-    width: 515px;
+    width: 540px;
     margin-top: 25px;
-    margin-bottom: 65px;
+    margin-bottom: 30px;
 
 }
 
 .sabermais {
-    width: 150px;
+    width: 170px;
     font-weight: 600;
-    height: 64px;
+    height: 40px;
     font-size: 20px;
     border: none;
     border-radius: 30px;
     color: white;
     background-color: rgb(17, 137, 192);
-    padding: 9px;
     cursor: pointer;
-    margin-top: 3px;
+    margin-top: px;
 
 }
 
@@ -129,41 +145,62 @@ p {
 
 @media screen and (max-width: 900px) {
 
-    h2 {
-        display: flex;
-        padding: 0;
-        margin: 0;
-        font-size: 25px;
-        margin-top: 20px;
-    }
 
     h1 {
-        
+        display: flex;
         line-height: 62px;
-        font-size: 70px;
+        font-size: 30px;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+        width: auto;
 
     }
-.ladoesquerdo{
-    width: 160%;
-    height: 50px;
-    padding: 0;
-    margin: 0;
 
-}
-image{
-    position: static;
+    p {
 
-}
+        margin: 15px 40px;
+        font-size: 15px;
+        margin-top: 20px;
+        width: auto;
+        text-align: center;
+    }
 
-.sabermais{
-    margin-left: 150px;
+    .ladoesquerdo {
 
-    
-   
-}
-header{
-   width: 100%;
-   float: left;
-}
+        width: 90%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .ladodireito {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        margin-left: 150px;
+        margin-top: 50px;
+       
+
+    }
+
+    image {
+        position: static;
+        width: 100px;
+        
+    }
+
+    .sabermais {
+       display: block;
+        font-size: 15px;
+        margin: 0 auto;
+ 
+    }
+
+    header {
+
+        display: none;
+    }
 
 }
